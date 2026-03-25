@@ -4,7 +4,7 @@ import { useStore } from '../store';
 
 const categories = ['All', 'Ambience', 'Food'];
 
-export default function Gallery() {
+export function Gallery() {
   const gallery = useStore((state) => state.gallery);
   const [activeCategory, setActiveCategory] = useState('All');
 

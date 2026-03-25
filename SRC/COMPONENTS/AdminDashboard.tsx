@@ -27,7 +27,7 @@ const statusIcons = {
   cancelled: XCircle,
 };
 
-export default function AdminDashboard({ isOpen, onClose }: AdminDashboardProps) {
+export function AdminDashboard({ isOpen, onClose }: AdminDashboardProps) {
   const [activeTab, setActiveTab] = useState<Tab>('reservations');
   const { reservations, updateReservationStatus, menuItems, gallery, testimonials } = useStore();
 

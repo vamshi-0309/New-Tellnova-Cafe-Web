@@ -1,18 +1,18 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import MenuModal from './components/Menu';
-import ReservationModal from './components/ReservationModel';
-import Gallery from './components/Gallery';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import AdminDashboard from './components/AdminDashboard';
+import { Header } from '@/components/Header';
+import { Hero } from '@/components/Hero';
+import { About } from '@/components/About';
+import { MenuModal } from '@/components/Menu';
+import { ReservationModal } from '@/components/ReservationModal';
+import { Gallery } from '@/components/Gallery';
+import { Testimonials } from '@/components/Testimonials';
+import { Contact } from '@/components/Contact';
+import { Footer } from '@/components/Footer';
+import { AdminDashboard } from '@/components/AdminDashboard';
 import { Settings } from 'lucide-react';
 
-export default function App() {
+export function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isReservationOpen, setIsReservationOpen] = useState(false);
   const [isAdminOpen, setIsAdminOpen] = useState(false);

@@ -28,7 +28,7 @@ const features = [
   },
 ];
 
-export default function About() {
+export function About() {
   return (
     <section id="about" className="py-24 relative overflow-hidden">
       {/* Background */}

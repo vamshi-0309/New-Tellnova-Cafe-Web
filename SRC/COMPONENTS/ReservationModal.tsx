@@ -15,7 +15,7 @@ const timeSlots = [
   '08:00 PM', '09:00 PM'
 ];
 
-export default function ReservationModal({ isOpen, onClose }: ReservationModalProps) {
+export function ReservationModal({ isOpen, onClose }: ReservationModalProps) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',

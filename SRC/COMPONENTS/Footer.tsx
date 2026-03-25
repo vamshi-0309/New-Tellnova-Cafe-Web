@@ -23,7 +23,7 @@ const footerLinks = {
   ],
 };
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className="relative bg-[#050508] pt-16 pb-8">
       {/* Gradient top border */}

@@ -17,7 +17,7 @@ const navLinks = [
   { name: 'Contact', href: '#contact' },
 ];
 
-export default function Header({ onOpenReservation, onOpenMenu }: HeaderProps) {
+export function Header({ onOpenReservation, onOpenMenu }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

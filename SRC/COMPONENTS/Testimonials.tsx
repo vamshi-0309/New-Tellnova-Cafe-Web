@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Star, Quote } from 'lucide-react';
 import { useStore } from '../store';
 
-export default function Testimonials() {
+export function Testimonials() {
   const testimonials = useStore((state) => state.testimonials);
 
   return (

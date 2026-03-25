@@ -5,7 +5,7 @@ interface HeroProps {
   onOpenReservation: () => void;
 }
 
-export default function Hero({ onOpenReservation }: HeroProps) {
+export function Hero({ onOpenReservation }: HeroProps) {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 animated-bg grid-pattern">
       {/* Decorative Elements */}

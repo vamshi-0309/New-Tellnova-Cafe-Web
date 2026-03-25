@@ -21,7 +21,7 @@ interface MenuModalProps {
   onClose: () => void;
 }
 
-export default function MenuModal({ isOpen, onClose }: MenuModalProps) {
+export function MenuModal({ isOpen, onClose }: MenuModalProps) {
   const [activeCategory, setActiveCategory] = useState('all');
   const menuItems = useStore((state) => state.menuItems);
 
